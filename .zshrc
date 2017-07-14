@@ -19,7 +19,7 @@ function f_notifyme {
             -message "exited with status $LAST_EXIT_CODE" \
             -activate "$TERMINAL_BUNDLE_ID" \
             -sender "$TERMINAL_BUNDLE_ID" \
-            -group "$TERMINAL_BUNDLE_ID" 2>&1 > /dev/null
+            -group "$TERMINAL_BUNDLE_ID" > /dev/null 2>&1
     fi
 }
 
